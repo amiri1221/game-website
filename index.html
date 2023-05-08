@@ -1,0 +1,737 @@
+<html lang="en" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="img/Logo.png">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/slick.css">
+    <link rel="stylesheet" href="css/slick-theme.css">
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+        /******** style slider slick **********/
+        .slick-slide {
+            margin: 0px 20px;
+        }
+
+        .slick-slide img {
+            width: 100%;
+        }
+
+        .slick-prev:before,
+        .slick-next:before {
+            color: #fff;
+        }
+    </style>
+    <title>استودیوی بازی سازی درخشش</title>
+</head>
+
+<body>
+    <header>
+        <div class="menu col-md-12">
+            <!--منو اصلی-->
+            <nav class="nav-menu col-md-8">
+                <ul class="nav align-items-center">
+                    <li class="nav-item"><a href="#"><img src="img/Logo.svg" alt=""></a>
+                    </li>
+                    <li class="nav-item active"><a href="#">خانه</a></li>
+                    <li class="nav-item"><a href="./Branchesgames.html">شاخه های بازی سازی</a></li>
+                    <li class="nav-item"><a href="#">آموزش<i class="fa fa-angle-down"></i></a>
+                        <ul>
+                            <li><a href="#">آیتم</a></li>
+                            <li><a href="#">آیتم</a></li>
+                            <li><a href="#">آیتم</a></li>
+                            <li><a href="#">آیتم</a></li>
+                            <li><a href="#">آیتم</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item"><a href="#">مقالات<i class="fa fa-angle-down"></i></a>
+                        <ul>
+                            <li><a href="#">آیتم</a></li>
+                            <li><a href="#">آیتم</a></li>
+                            <li><a href="#">آیتم</a></li>
+                            <li><a href="#">آیتم</a></li>
+                            <li><a href="#">آیتم</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item"><a href="#">نقد و بررسی<i class="fa fa-angle-down"></i></a>
+                        <ul>
+                            <li><a href="#">آیتم</a></li>
+                            <li><a href="#">آیتم</a></li>
+                            <li><a href="#">آیتم</a></li>
+                            <li><a href="#">آیتم</a></li>
+                            <li><a href="#">آیتم</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item"><a href="#">فروشگاه<i class="fa fa-angle-down"></i></a>
+                        <ul>
+                            <li><a href="#">آیتم</a></li>
+                            <li><a href="#">آیتم</a></li>
+                            <li><a href="#">آیتم</a></li>
+                            <li><a href="#">آیتم</a></li>
+                            <li><a href="#">آیتم</a></li>
+                        </ul>
+                    </li>
+
+                    <li class="nav-item"><a href="#">درباره ما</a></li>
+                </ul>
+            </nav>
+            <!--منو موبایل-->
+            <nav class="navigation">
+                <ul>
+                    <li class="text-center"><a href="#"><img src="img/Logo.svg" alt=""></a></li>
+                    <li class="active"><a href="#">خانه</a></li>
+                    <li><a href="#">شاخه های بازی سازی</a></li>
+                    <li><a href="#">آموزش</i></a>
+                        <ul>
+                            <li><a href="#">آیتم</a></li>
+                            <li><a href="#">آیتم</a></li>
+                            <li><a href="#">آیتم</a></li>
+                            <li><a href="#">آیتم</a></li>
+                            <li><a href="#">آیتم</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">مقالات</a>
+                        <ul>
+                            <li><a href="#">آیتم</a></li>
+                            <li><a href="#">آیتم</a></li>
+                            <li><a href="#">آیتم</a></li>
+                            <li><a href="#">آیتم</a></li>
+                            <li><a href="#">آیتم</a></li>
+                        </ul>
+                    </li>
+                    <li class=""><a href="#">نقد و بررسی</a>
+                        <ul>
+                            <li><a href="#">آیتم</a></li>
+                            <li><a href="#">آیتم</a></li>
+                            <li><a href="#">آیتم</a></li>
+                            <li><a href="#">آیتم</a></li>
+                            <li><a href="#">آیتم</a></li>
+                        </ul>
+                    </li>
+                    <li class=""><a href="#">فروشگاه</a>
+                        <ul>
+                            <li><a href="#">آیتم</a></li>
+                            <li><a href="#">آیتم</a></li>
+                            <li><a href="#">آیتم</a></li>
+                            <li><a href="#">آیتم</a></li>
+                            <li><a href="#">آیتم</a></li>
+                        </ul>
+                    </li>
+
+                    <li class="nav-item"><a href="#">درباره ما</a></li>
+                </ul>
+            </nav>
+            <!-- آیکون منو  -->
+            <div class="col-md-3" id="hamberger">
+                <i class="fa fa-bars"></i>
+            </div>
+            <!-- باکس چپ منو -->
+            <div class="shoplogin col-md-4">
+                <div class="box-shoplogin col-md-12">
+                    <!-- دکمه search -->
+                    <div class="search-box">
+                        <input type="text" placeholder="جست و جو کنید" />
+                        <i class=""><img src="img/Icon ionic-ios-search.svg" alt=""
+                                onmouseover="this.src='img/iconhoversearch.svg'"
+                                onmouseout="this.src='img/Icon ionic-ios-search.svg'"></i>
+                    </div>
+                    <!--  باکس سبد خرید -->
+                    <div class="shoppin-link">
+                        <a href=""><img src="img/shopping-bag.svg" alt="" onmouseover="this.src='img/bag-cart.svg'"
+                                onmouseout="this.src='img/shopping-bag.svg'"></a>
+                    </div>
+                    <!--  دکمه سرچ موبایل -->
+                    <div>
+                        <div class="search-mobile">
+                            <i class="first-icon-search"><img src="img/Icon ionic-ios-search.svg" alt=""></i>
+                            <div class="search-icon">
+                                <i class="animate__animated animate__bounceIn"><img src="img/Icon ionic-ios-search.svg"
+                                        alt=""></i>
+                                <input type="text" class="animate__animated animate__bounceIn"
+                                    placeholder="جست و جو کنید..." />
+                            </div>
+
+                        </div>
+
+                    </div>
+                    <!--  باکس لاگین -->
+                    <div class="login">
+                        <i><img src="img/user-header.svg" alt=""></i>
+                        <span><a href="#">ورود</a>/<a href="#">ثبت نام</a></span>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+    </header>
+    <!--  بنر اول سایت -->
+    <section class="advertisement col-md-12 position-relative">
+        <img src="img/Rectangle 103.png" alt="">
+        <div class="box-advertisement position-absolute">
+            <h1>
+                استودیوی بازی سازی درخشش
+            </h1>
+            <h5>مرجع تخصصی آموزش های بازی سازی</h5>
+            <a href="#" class="btn btn-lg">درباره ما</a>
+        </div>
+
+    </section>
+    <!-- اسلایدر بازی ها -->
+    <section class="carousel-section position-relative">
+        <div class="show-click-box">
+            <!-- باکس نقد برسی بازی ها  -->
+            <div
+                class="info-slider-game col-md-12 h-100 position-absolute d-flex justify-content-center align-items-center">
+                <button class="btn-show"><img src="img/close-slider.svg" alt=""></button>
+                <div class="game-info-slider">
+                    <img src="img/img-slider-box.png" alt="">
+                    <div class="link-img-slider">
+                        <div class="right-img-box col-6">
+                            <a href="#">
+                                <div>
+                                    <span>نقد و بررسی بازی</span>
+                                </div>
+                            </a>
+                            <br />
+                            <a href="#">
+                                <div>
+                                    <span>آموزشگاه</span>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="left-img-box col-5">
+                            <h3>
+                                God Of War
+                                <br />
+                                <span>خدای جنگ</span>
+                            </h3>
+                            <p>اول شـخـص، نقـش آفرینی، حماسی</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- آیتم های اسلایدر بازی ها  -->
+        <div class="owl-carousel owl-theme one-slider" id="owl-carousel-one" dir="ltr">
+            <div class="item">
+                <a href="#"><img src="./img/sliderimg/age-of-empires-4-campaign-1200x675-1.png" alt=""></a>
+            </div>
+            <div class="item">
+                <a href="#"><img src="./img/sliderimg/11.png" alt=""></a>
+
+            </div>
+            <div class="item">
+                <a href="#"><img src="./img/sliderimg/CO-GAME-Videogame-Research_Laterna_AssassinsCreed-w850.png"
+                        alt=""></a>
+
+            </div>
+            <div class="item">
+                <a href="#"> <img src="./img/sliderimg/god-of-war-ragnarok_6153376.png" alt=""></a>
+
+            </div>
+            <div class="item">
+                <a href="#"><img src="./img/sliderimg/marvels-midnight-suns-key-art.png" alt=""></a>
+
+            </div>
+            <div class="item">
+                <a href="#"> <img
+                        src="./img/sliderimg/halo_infinite_wallpaper_desktop_std_2048x1536_ae06d402044943a3a44e6f13e686a144.png"
+                        alt=""></a>
+
+            </div>
+
+        </div>
+    </section>
+    <!-- باکس مرجعی برای علاقه مندان -->
+    <section class="mt-4 position-relative">
+        <div class="line-color position-absolute shadow"></div>
+        <div class="container">
+            <div class="row d-flex justify-content-between">
+                <!-- متن اول درخشش مرجعی برای علاقه مندان -->
+                <div class="col-md-4 text-center">
+                    <div class="col-md-12 d-flex justify-content-md-end position-relative justify-content-end">
+                        <img class="position-absolute" src="img/user-derakhshesh.png" alt="">
+                    </div>
+                    <div class="text-derakhshesh col-md-12">
+                        <h1>درخشش</h1>
+                        <h3>مرجعی برای علاقه مندان
+                            بــه بــازی‌ســازی حـــرفــه‌ای</h3>
+                        <h5 class="mt-3">بازی سازی سخت نیست .فقط کافیه یه بار
+                            !درست آموزش ببینی . همین</h5>
+                        <p>آموزش های رایگان (پیش نیاز) ، مقدماتی (مبتدی) ، پیشرفته (حرفه‌ای)</p>
+
+                        <a href="#">مشاهده آموزش های رایگان</a>
+                    </div>
+                </div>
+                <div class="information-box-derakhshesh col-md-7">
+                    <div>
+                        <!--  ویدیو درخشش مرجعی برای علاقه مندان -->
+                        <video controls>
+                            <source src="img/video.mp4">
+                        </video>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- باکس شاخه های مختلف بازی سازی -->
+    <section class="section-default-make-game">
+        <div class="container">
+            <div class="row">
+                <!-- متن  شاخه های مختلف بازی سازی -->
+                <div class="default-make-game col-md-12">
+                    <h2>شاخه های مختلف بازی سازی</h2>
+                    <h4>مفید برای کسایی که به این حوزه علاقه دارن اما نمیدونن از کجا باید شروع کنن؟؟</h4>
+                    <p> من به کدوم شاخه از بازی سازی علاقه دارم؟ دریایی وسیعی از اطلاعات روبروی من قرار داره ولی
+                        نمیخوام همشو امتحان کنم تا وقتم گرفته بشه
+                        <br>
+                        <span> نیاز به یه توضیح کوتاه و سریع دارم</span>
+                    </p>
+
+                    <div class="see-slider col-md-12">
+                        <div class="row d-flex align-items-center">
+                            <div class="col-md-7">
+                                <p> دیدن این چندتا عکس و مطالطعه نوشته های زیرش خیلی کمک کنندست</p>
+                            </div>
+
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- اسلایدر  شاخه های مختلف بازی سازی -->
+        <div class="box-dufaltmake position-relative">
+            <div class="row-box-slider-blur d-flex justify-content-between position-absolute h-100 w-100">
+                <div class="right-slider-brul"></div>
+                <div class="left-slider-brul"></div>
+            </div>
+            <section class="slider-area slider" dir="ltr">
+                <!-- آیتم  شاخه های مختلف بازی سازی -->
+                <div class="item-slider-game">
+                    <a href="#">
+                        <img src="img/slider-two-index/Rectangle 59.png" alt="">
+                        <h3>
+                            برنامه نویس گرافیکی بازی ها طراحی کاراکتر ها و محیط گرافیکی
+
+                        </h3>
+                        <p>
+                            (هر چیزی که در محیط بازی دیده میشه)
+                        </p>
+                    </a>
+                </div>
+                <div class="item-slider-game">
+                    <a href="#">
+                        <img src="img/slider-two-index/Rectangle 59.png" alt="">
+                        <h3>
+                            برنامه نویس گرافیکی بازی ها طراحی کاراکتر ها و محیط گرافیکی
+
+                        </h3>
+                        <p>
+                            (هر چیزی که در محیط بازی دیده میشه)
+                        </p>
+                    </a>
+                </div>
+                <div class="item-slider-game">
+                    <a href="#">
+                        <img src="img/slider-two-index/Rectangle 59.png" alt="">
+                        <h3>
+                            برنامه نویس گرافیکی بازی ها طراحی کاراکتر ها و محیط گرافیکی
+
+                        </h3>
+                        <p>
+                            (هر چیزی که در محیط بازی دیده میشه)
+                        </p>
+                    </a>
+                </div>
+                <div class="item-slider-game">
+                    <a href="#">
+                        <img src="img/slider-two-index/Rectangle 59.png" alt="">
+                        <h3>
+                            برنامه نویس گرافیکی بازی ها طراحی کاراکتر ها و محیط گرافیکی
+
+                        </h3>
+                        <p>
+                            (هر چیزی که در محیط بازی دیده میشه)
+                        </p>
+                    </a>
+                </div>
+                <div class="item-slider-game">
+                    <a href="#">
+                        <img src="img/slider-two-index/Rectangle 59.png" alt="">
+                        <h3>
+                            برنامه نویس گرافیکی بازی ها طراحی کاراکتر ها و محیط گرافیکی
+
+                        </h3>
+                        <p>
+                            (هر چیزی که در محیط بازی دیده میشه)
+                        </p>
+                    </a>
+                </div>
+                <div class="item-slider-game">
+                    <a href="#">
+                        <img src="img/slider-two-index/Rectangle 59.png" alt="">
+                        <h3>
+                            برنامه نویس گرافیکی بازی ها طراحی کاراکتر ها و محیط گرافیکی
+
+                        </h3>
+                        <p>
+                            (هر چیزی که در محیط بازی دیده میشه)
+                        </p>
+                    </a>
+                </div>
+
+            </section>
+        </div>
+    </section>
+
+    <!--   دیدن تمام شاخه های بازی سازی  -->
+    <div class="section-see-all-box container">
+        <div class="row d-flex align-items-center">
+            <div class="col-md-8">
+                <div class="top-box-see-all-box d-flex flex-nowrap align-items-center">
+                    <img src="img/Icon awesome-stroopwafel.svg" alt="">
+                    <h3>شاخه های اصلی تا اینجا همین ها بودن اما زیر شاخه های دیگه هم وجود داره</h3>
+                </div>
+
+                <div class="bottom-box-see-all-box">
+                    <p>برای دیدن ادامه زیر شاخه های دنیای وسیع بازی سازی روی دکمه روبرو کلیک کن. </p>
+                </div>
+
+            </div>
+            <div class="right-box-see-link col-md-4 d-flex justify-content-end">
+                <a href="#">دیدن تمام شاخه های بازی سازی</a>
+            </div>
+        </div>
+    </div>
+    <!-- باکس پرسش و پاسخ -->
+    <section class="bg-white">
+        <div class="container">
+            <div class="row row-box-qustion">
+                <div class="box-row-qustion col-md-6">
+                    <h2>پرسش و پاسخ مربوط به این قسمت</h2>
+                    <!--  باکس پرسش و پاسخ  آیتم های دوره-->
+                    <div class="col-md-12">
+                        <div class="d-flex flex-wrap justify-content-between mt-3" id="qustion-box-gaame">
+                            <div class="left-box-qustion col-md-6 p-2">
+                                <h3>این دوره به درد چه کسایی میخوره</h3>
+                                <ul>
+                                    <li>این دوره به درد چه کسایی میخورهاین دوره به درد چه کسایی میخورهاین ؟</li>
+                                    <li>این دوره به درد چه کسایی میخورهاین دوره به درد چه کسایی میخورهاین ؟</li>
+                                    <li>این دوره به درد چه کسایی میخورهاین دوره به درد چه کسایی میخورهاین ؟</li>
+                                    <li>این دوره به درد چه کسایی میخورهاین دوره به درد چه کسایی میخورهاین ؟</li>
+                                </ul>
+                            </div>
+                            <div class="right-box-qustion col-md-6 p-2">
+                                <h3>این دوره به درد چه کسایی نمیخوره</h3>
+                                <ul>
+
+                                    <li>این دوره به درد چه کسایی میخورهاین دوره به درد چه کسایی میخورهاین ؟</li>
+                                    <li>این دوره به درد چه کسایی میخورهاین دوره به درد چه کسایی میخورهاین ؟</li>
+                                    <li>این دوره به درد چه کسایی میخورهاین دوره به درد چه کسایی میخورهاین ؟</li>
+                                    <li>این دوره به درد چه کسایی میخورهاین دوره به درد چه کسایی میخورهاین ؟</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <!--  باکس پرسش و پاسخ  آیتم های دوره برای موبایل منو کشویی-->
+                        <div class="accordion" id="accordionPanelsStayOpenExample">
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="panelsStayOpen-headingOne">
+                                    <button class="accordion-button accordion-button-one" type="button"
+                                        data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne"
+                                        aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
+                                        این دوره به درد چه کسایی میخوره
+                                    </button>
+                                </h2>
+                                <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show"
+                                    aria-labelledby="panelsStayOpen-headingOne">
+                                    <div class="accordion-body">
+                                        <ul>
+                                            <li>این دوره به درد چه کسایی میخورهاین دوره به درد چه کسایی میخورهاین ؟</li>
+                                            <li>این دوره به درد چه کسایی میخورهاین دوره به درد چه کسایی میخورهاین ؟</li>
+                                            <li>این دوره به درد چه کسایی میخورهاین دوره به درد چه کسایی میخورهاین ؟</li>
+                                            <li>این دوره به درد چه کسایی میخورهاین دوره به درد چه کسایی میخورهاین ؟</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="panelsStayOpen-headingTwo">
+                                    <button class="accordion-button collapsed accordion-button-two" type="button"
+                                        data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo"
+                                        aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo">
+                                        این دوره به درد چه کسایی نمیخوره
+                                    </button>
+                                </h2>
+                                <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse"
+                                    aria-labelledby="panelsStayOpen-headingTwo">
+                                    <div class="accordion-body">
+                                        <ul>
+
+                                            <li>این دوره به درد چه کسایی میخورهاین دوره به درد چه کسایی میخورهاین ؟</li>
+                                            <li>این دوره به درد چه کسایی میخورهاین دوره به درد چه کسایی میخورهاین ؟</li>
+                                            <li>این دوره به درد چه کسایی میخورهاین دوره به درد چه کسایی میخورهاین ؟</li>
+                                            <li>این دوره به درد چه کسایی میخورهاین دوره به درد چه کسایی میخورهاین ؟</li>
+                                            <li>این دوره به درد چه کسایی میخورهاین دوره به درد چه کسایی میخورهاین ؟</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                    <p>روی پرســش هـای مدنـظر کلیک کـنید و جــواب هــا رو به صــورت ویدئویی ببنی :</p>
+                </div>
+
+                <div class="img-qustion-box col-md-6 mt-5">
+                    <video controls>
+                        <source src="img/video.mp4">
+                    </video>
+
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- باکس دوره های بازی سازی درخشش ، مخصوص سه دسته از افراد -->
+    <section id="box-information">
+        <div class="container text-center row-box-information position-relative">
+            <h2>دوره های بازی سازی درخشش ، مخصوص سه دسته از افراد</h2>
+            <div class="row box-row-information">
+                <!-- باکس اول -->
+                <div class="box-ifromation-game col-md-4 text-center" id="box-info-game-1">
+                    <div class="box-hover-information col-md-12 position-relative">
+                        <div class="text-box-information1">
+                            <h4>دوره راهنمای جامع</h4>
+                        </div>
+                        <div class="img-hover-information" id="img-hover-id-3">
+                            <img src="img/cwok_casual_35.png" alt="">
+                        </div>
+                    </div>
+
+                    <div class="item-box-information col-md-12 text-center" id="hover-text-1">
+                        <h5>!علاقه مند اما صفر صفر</h5>
+                        <p>
+                            دوست دارم بازی ساز بشم
+                            ولی نمیدونم از کجا شروع کنم؟</p>
+
+                        <p id="">
+                            راهنمای جامع مسیر بازی سازی از صفر تا صد
+                        </p>
+                        <a href="#">
+                            <div class="box-hover-link col-md-12" id="box-hover-link1">
+                                <h6>
+                                    مشاهده سرفصل های دوره مبتدی
+                                </h6>
+                            </div>
+                        </a>
+                    </div>
+
+
+                </div>
+                <!-- باکس دوم -->
+                <div class="box-ifromation-game col-md-4 text-center" id="box-info-game-2">
+                    <div class="box-hover-information col-md-12 position-relative">
+                        <div class="text-box-information2">
+                            <h4>دوره مبتدی و رایگان<img src="img/likeimg.png" alt=""></h4>
+                        </div>
+                        <div class="img-hover-information" id="img-hover-id-1">
+                            <img src="img/fun-gaulois-3d-illustration.png" alt="">
+                        </div>
+
+                    </div>
+                    <div class="item-box-information col-md-12 text-center" id="hover-text-2">
+                        <h5>دارای پیش زمینه و کمی اطلاعات</h5>
+                        <p>یه چیزایی بلدم ولی دنبال دوره های
+                            باکیفیت و قیمت مناسب هستم</p>
+
+                        <p>
+                            دوره مبتدی با بیانی ساده و
+                            توضیحات کامل و به درد بخور
+                        </p>
+                        <a href="#">
+                            <div class="box-hover-link col-md-12" id="box-hover-link2">
+                                <h6>
+                                    مشاهده سرفصل های دوره مبتدی
+                                </h6>
+                            </div>
+                        </a>
+                    </div>
+
+
+                </div>
+                <!-- باکس سوم -->
+                <div class="box-ifromation-game col-md-4 text-center" id="box-info-game-3">
+                    <div class="box-hover-information col-md-12 position-relative">
+                        <div class="text-box-information3">
+                            <h4>دوره فوق حرفه‌ای، رایگان<img src="img/supraze.png" alt=""></h4>
+                        </div>
+
+                        <div class="img-hover-information" id="img-hover-id-2">
+                            <img src="img/93.png" alt="">
+                        </div>
+
+                    </div>
+                    <div class="item-box-information col-md-12 text-center" id="hover-text-3">
+                        <h5>علاقه مند اما صفر صفر</h5>
+                        <p>چندین سال سابقه دارم و دنبال
+                            پیاده سازی ایده های خفنم</p>
+
+                        <p>
+                            دوره فوق حرفه‌ای بازی سازی
+                            مخصوص سینیورها
+                        </p>
+                        <a href="#">
+                            <div class="box-hover-link col-md-12" id="box-hover-link3">
+                                <h6>
+                                    مشاهده سرفصل های دوره مبتدی
+                                </h6>
+                            </div>
+                        </a>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+    <footer class="footer">
+        <!-- باکس خبر نامه -->
+        <div class="row-massage">
+            <div class="container d-flex justify-content-center" id="box-news">
+                <div class="news-gamer col-md-12">
+                    <form action="" class="d-flex flex-wrap justify-content-between align-items-center">
+                        <div class="col-md-4 col-sm-12">
+                            <h3>عضویت در خبرنامه درخشش</h3>
+                        </div>
+                        <div class="col-md-5 col-sm-12">
+                            <input type="text" placeholder=":آدرس ایمیلتون رو وارد کنید">
+                        </div>
+                        <div class="col-md-3 col-sm-12 button-form-news">
+                            <input type="submit" value="عضویت رایگان">
+                        </div>
+
+                    </form>
+                </div>
+            </div>
+        </div>
+        <!-- فوتر ایتم -->
+        <div class="footer-derakhshesh">
+            <div class="container">
+
+                <div class="col-md-12">
+                    <div class="row d-flex justify-content-between">
+                        <div class="col-6 col-md-3 box-footer">
+                            <h3>درخشش</h3>
+                            <div>
+                                <ul>
+                                    <li><a href="#">درخشش</a></li>
+                                    <li><a href="#">درخشش</a></li>
+                                    <li><a href="#">درخشش</a></li>
+                                    <li><a href="#">درخشش</a></li>
+                                </ul>
+                            </div>
+
+                        </div>
+                        <div class="col-6 col-md-3 box-footer">
+                            <h3>درخشش</h3>
+                            <div>
+                                <ul>
+                                    <li><a href="#">درخشش</a></li>
+                                    <li><a href="#">درخشش</a></li>
+                                    <li><a href="#">درخشش</a></li>
+                                    <li><a href="#">درخشش</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-6 col-md-3 box-footer">
+                            <h3>درخشش</h3>
+                            <div>
+                                <ul>
+                                    <li><a href="#">درخشش</a></li>
+                                    <li><a href="#">درخشش</a></li>
+                                    <li><a href="#">درخشش</a></li>
+                                    <li><a href="#">درخشش</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-3 box-icon">
+                            <ul class="d-flex flex-wrap col-md-12">
+                                <li class="col-5"><img src="img/namad1.png" alt=""></li>
+                                <li class="col-5"><img src="img/namad2.png" alt=""></li>
+                                <li class="col-5 box-icon-game">
+                                    <ul class="col-12">
+                                        <li class="col-6">
+                                            <a href="#"><img src="img/instagram.svg" alt=""></a>
+                                        </li>
+                                        <li class="col-6">
+                                            <a href="#"><img src="img/telegram-svgrepo-com.svg" alt=""></a>
+                                        </li>
+                                        <li class="col-6">
+                                            <a href="#"><img src="img/twitter.svg" alt=""></a>
+                                        </li>
+                                        <li class="col-6">
+                                            <a href="#"><img src="img/youtube.svg" alt=""></a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="col-5"><img src="img/namad3.png" alt=""></li>
+                            </ul>
+                            <div class="col-md-12">
+                                <h4>شبــــکه هــــــــــــــــای اجتماعی</h4>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-12 text-center box-bootom-footer">
+                    <p>تمامی حقوق این سایت متعلق به استودیو بــازی‌ ســازی درخشش بوده و هرگونه کپی یا ایده برداری از آن
+                        پیگرد
+                        قانونی خواهد
+                        داشت.1400-1401</p>
+                </div>
+            </div>
+        </div>
+
+    </footer>
+    <script src="js/jquery-3.5.1.min.js"></script>
+    <script src="js/slick.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/main.js"></script>
+    <script>
+        $('.slider-area').slick({
+            centerMode: true,
+            dots: true,
+            centerPadding: '100px',
+            slidesToShow: 5,
+            responsive: [
+                {
+                    breakpoint: 992,
+                    settings: {
+                        arrows: false,
+                        centerMode: true,
+                        centerPadding: '40px',
+                        slidesToShow: 3
+                    }
+                },
+                {
+                    breakpoint: 480,
+                    settings: {
+                        arrows: false,
+                        centerMode: true,
+                        centerPadding: '40px',
+                        slidesToShow: 1
+                    }
+                }
+            ]
+        });
+    </script>
+</body>
+
+</html>

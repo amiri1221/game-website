@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="50" height="66" viewBox="0 0 50 66">
+  <defs>
+    <clipPath id="clip-path">
+      <rect width="50" height="66" fill="none"/>
+    </clipPath>
+  </defs>
+  <g id="Scroll_Group_5" data-name="Scroll Group 5" clip-path="url(#clip-path)" style="isolation: isolate">
+    <g id="Component_5_3" data-name="Component 5 – 3">
+      <path id="Rectangle_68" data-name="Rectangle 68" d="M33,0H73a0,0,0,0,1,0,0V66a0,0,0,0,1,0,0H33A33,33,0,0,1,0,33v0A33,33,0,0,1,33,0Z" fill="#afdc42"/>
+      <g id="Icon_ionic-ios-arrow-dropleft" data-name="Icon ionic-ios-arrow-dropleft" transform="translate(22.028 17.79)">
+        <path id="Path_7" data-name="Path 7" d="M12.936,10.745a2.626,2.626,0,0,1,3.7,0l12.93,12.97a2.613,2.613,0,0,1,.081,3.605L16.907,40.1a2.612,2.612,0,1,1-3.7-3.686L24.023,25.437l-11.1-10.992A2.614,2.614,0,0,1,12.936,10.745Z" transform="translate(-12.162 -9.983)" fill="#383b40"/>
+      </g>
+    </g>
+  </g>
+</svg>
